@@ -1,0 +1,117 @@
+
+.section_useful_top{
+    width: 345px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+   margin-top: 60px;
+}
+.useful_h1{
+ color: var(--main-font, #363738);
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%;
+width: 345px;
+height: 64px;
+}
+.section_about_p1{
+    color: var(--main-font, #363738);
+font-family: "Exo 2";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 135%;
+width: 269px;
+height: 19px;
+margin-bottom: 12px;
+}
+.section_about_p2{
+    color: var(--additional-font, #6B6B6C);
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+width: 269px;
+height: 39px;
+}
+.section_useful_text{
+    margin-left: 16px;
+}
+.section_useful_frist{
+    display: flex;
+    margin-top: 48px;
+}
+.section_useful_second{
+    display: flex;
+    margin-top: 38px;
+}
+.section_useful_thereth{
+    display: flex;
+    margin-top: 38px;
+}
+.section_useful_fourth{
+    display: flex;
+    margin-top: 38px;
+}
+.useful_img_top{
+    display: none;
+}
+.useful_img_big_top{
+    display: none;
+}
+@media screen and (min-width:768px) {
+   .section_useful_top{
+    width: 750px;
+   }
+    .useful_img_frist{
+        width: 89.249px;
+        height: 88px;
+    }
+    .useful_img_second{
+    width: 89.249px;
+    height: 88px;
+    }
+    .useful_img_thereth{
+    width: 89.249px;
+    height: 88px;
+    }
+    .useful_img_fourth{
+    width: 89.249px;
+    height: 88px;
+    }
+    .section_about_p1{
+    width: 331.64px;
+    height: 21px;
+    }
+    .section_about_p2{
+    width: 399.591px;
+    height: 41px;
+    }
+    .useful_h1{
+        display: none;
+    }
+    .useful_img_top{
+        display: block;
+    }
+
+}
+@media screen and (min-width:1200px) {
+    .useful_img_big_top{
+        display: block;
+    }
+    .useful_img_top{
+        display:none;
+    }
+    .hammasini_orovchi{
+        display: flex;
+}
+    .section_useful_top{
+        width: 1250px;
+        height: 700px;
+}
+.orbtuuvchi_1{
+    margin-right: 175px;
+}
+
+}

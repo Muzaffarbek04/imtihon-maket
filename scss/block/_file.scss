@@ -1,0 +1,106 @@
+
+.transport_frist{
+    margin-bottom: 15px;
+}
+
+  .transport_second{
+    display: none;
+  }  
+  .transport_thereth{
+    display: none;
+  }
+  .img_big{
+    display: none;
+  }
+  .transport_img_tablet{
+    display: none;
+  }
+  .second_img_tabler{
+display: none;
+  }
+
+  @media screen and (min-width:768px) {
+    .section_transport_top{
+        width: 690px;
+    }
+    .transport_img_frist{
+    display:none;
+    }
+    .img_big{
+        display: block;
+    }
+    .transport_img{
+        display: block;
+    }
+    .transport_second{
+        display: block;
+        border-radius: 10px;
+background: var(--white, #FFF);
+box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+
+    }
+    .transport_about_text{
+        width: 667px;
+height: 41px;
+flex-shrink: 0;
+    }
+  }
+  @media screen and (min-width:1200px) {
+    .section_transport_top{
+        width: auto;
+        box-shadow:none;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+    .transport_frist{
+        width: 393px;
+        height: 439px;
+        border-radius: 10px;
+        background: var(--white, #FFF);
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+        margin-right:30px ;
+        margin-left: 40px;
+    }
+    .transport_second{
+        width: 393px;
+        height: 439px;
+        border-radius: 10px;
+background: var(--white, #FFF);
+box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+margin-right: 30px;
+    }
+    .transport_thereth{
+        display: block;
+        width: 393px;
+        height: 439px;
+        border-radius: 10px;
+        background: var(--white, #FFF);
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+        
+    }
+    .transports{
+        display: flex;
+    }
+   .transport_img_tablet{
+    display: block;
+   }
+   .img_big{
+    display: none;
+   }
+   .transport_img{
+    display: block;
+   }
+   .transport_img_second{
+    display: none;
+   }
+   .second_img_tabler{
+    display: block;
+   }
+   .transports{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+  box-shadow:none;
+   }
+  }

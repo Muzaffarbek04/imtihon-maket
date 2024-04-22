@@ -1,0 +1,28 @@
+.section_logos{
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logos_top{
+    width: 200px;
+    height: 165px;
+    text-align: center;
+}
+.logo_top_h2{
+    color: var(--main-font, #363738);
+text-align: center;
+font-family: "Exo 2";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 135%; /* 24.3px */
+}
+.logo_top_p{
+    color: var(--additional-font, #6B6B6C);
+text-align: center;
+font-family: "PT Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 135%; /* 18.9px */
+}
